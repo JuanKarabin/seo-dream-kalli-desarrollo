@@ -899,7 +899,7 @@ Banner Style
 }
 
 .main-banner .left-content h2 {
-  border-top: 1px solid #eee;
+  /*border-top: 1px solid #eee;*/
   margin-top: 30px;
   padding-top: 20px;
   margin-bottom: 45px;
@@ -914,6 +914,19 @@ Banner Style
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.main-blue-button img {
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/iconos/icons8-instagram-50.png');
+  background-size: cover;
+  transition: background-image 0.3s ease-in-out;
+ }
+ 
+ .main-blue-button img:hover {
+  background-image: url('../images/iconos/icons8-instagram-hover-50.png');
+ }
+ 
 
 .main-banner .right-image {
   text-align: right;

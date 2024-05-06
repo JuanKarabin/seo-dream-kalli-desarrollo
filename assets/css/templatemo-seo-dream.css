@@ -1741,3 +1741,8 @@ responsive
     padding: 30px;
   }
 }
+
+.testimonios{
+  border: 1px solid #eee;
+  padding-top: 0px;
+}

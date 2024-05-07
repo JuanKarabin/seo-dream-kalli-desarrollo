@@ -854,7 +854,7 @@ Banner Style
   overflow: hidden;
 }
 
-.main-banner:after {
+/*.main-banner:after {
   content: '';
   background-image: url(../images/banner-dec-left.png);
   background-repeat: no-repeat;
@@ -864,7 +864,7 @@ Banner Style
   width: 212px;
   height: 653px;
   z-index: -1;
-}
+}*/
 
 .main-banner:before {
   content: '';

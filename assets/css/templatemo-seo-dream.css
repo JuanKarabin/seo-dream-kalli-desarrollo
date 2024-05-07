@@ -1729,8 +1729,8 @@ responsive
     margin-top: -10px !important;
   }
   .img-fluid{
-    max-height: 30px !important;
-    margin: 30% 0 !important;
+    max-width: 90px !important;
+    margin: 0 0 !important;
   }
 }
 
@@ -1780,7 +1780,7 @@ responsive
   }
   .img-fluid{
     max-height: 40px !important;
-    margin: 20% 0 !important;
+    margin: 0 0 !important;
   }
 }
 

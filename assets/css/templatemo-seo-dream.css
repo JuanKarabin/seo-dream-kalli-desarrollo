@@ -1343,7 +1343,7 @@ Services Style
 }
 
 .our-services .container-fluid {
-  padding: 0px 80px;
+  /*padding: 0px 80px;*/
 }
 
 .service-item {
@@ -1458,9 +1458,9 @@ Portfolio
 .our-portfolio .owl-nav {
   display: inline-block!important;
   position: absolute;
-  top: -117px;
+  /*top: -117px;
   right: 15%;
-  max-width: 1320px;
+  max-width: 1320px;*/
 }
 
 .our-portfolio .owl-nav .owl-next {

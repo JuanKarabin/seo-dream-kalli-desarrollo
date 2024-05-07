@@ -255,7 +255,7 @@ header
 */
 
 .background-header {
-  background-color: #00d37f!important;
+  background-color: #303030!important;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -270,7 +270,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #00d37f;
+  color: #303030;
 }
 
 .background-header .nav li a.active {
@@ -290,7 +290,7 @@ header
 }
 
 .header-area {
-  background-color: #00d37f;
+  background-color: #303030;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -462,7 +462,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #00d37f!important;
+  color: #303030!important;
   padding-left: 25px;
 }
 
@@ -602,7 +602,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #00d37f;
+  color: #303030;
 }
 
 @media (max-width: 1200px) {
@@ -635,14 +635,14 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #00d37f!important;
+    color: #303030!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
   .header-area {
-    background-color: #00d37f;
+    background-color: #303030;
     padding: 0px 15px;
     height: 100px;
     box-shadow: none;
@@ -696,7 +696,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #00d37f!important;
+    color: #303030!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -946,9 +946,9 @@ Features Style
 --------------------------------------------- 
 */
 
-#features {
+/*#features {
   padding-top: 130px;
-}
+}*/
 
 .features .features-content {
   z-index: 2;
@@ -973,6 +973,7 @@ Features Style
 .features-item:hover {
   background: #acb1eb  ;
   background: linear-gradient(105deg, #acb1eb 0%, #5762d5  100%);
+  border: 5px solid white;
 }
 
 .features-item:hover h4 {

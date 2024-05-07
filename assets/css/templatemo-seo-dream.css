@@ -1652,7 +1652,11 @@ responsive
   .section-heading img {
     width: 20% !important;
     margin-top: -10px !important;
-}
+  }
+  .img-fluid{
+    max-height: 40px;
+    margin: 20% 0;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1706,7 +1710,11 @@ responsive
   .section-heading img {
     width: 20% !important;
     margin-top: -10px !important;
-}
+  }
+  .img-fluid{
+    max-height: 30px !important;
+    margin: 30% 0 !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1752,6 +1760,10 @@ responsive
   .section-heading img {
       width: 25% !important;
       margin-top: -10px !important;
+  }
+  .img-fluid{
+    max-height: 40px;
+    margin: 20% 0;
   }
 }
 

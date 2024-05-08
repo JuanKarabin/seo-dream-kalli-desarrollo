@@ -864,7 +864,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 205px 0px 150px 0px;
+  padding: 330px 0px 280px 0px;
   position: relative;
   overflow: hidden;
 }
@@ -883,7 +883,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/fondo-derecha-compu.png);
+  background-image: url(../images/banner-dec-right-2.png);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;

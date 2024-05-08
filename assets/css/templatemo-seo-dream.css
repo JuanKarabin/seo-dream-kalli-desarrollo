@@ -1655,6 +1655,13 @@ responsive
 --------------------------------------------- 
 */
 
+@media (min-width: 1200px) {
+  .section-heading img {
+    width: 95px !important;
+    margin-top: -10px !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .logo h4 {
     font-size: 24px;
@@ -1667,7 +1674,7 @@ responsive
     padding-left: 20px;
   }
   .section-heading img {
-    width: 10% !important;
+    /*width: 10% !important;*/
     margin-top: -10px !important;
   }
   .img-fluid{
@@ -1786,4 +1793,50 @@ responsive
 
 .testimonios{
   padding-top: 0px;
+}
+
+.btn-wsp{
+  line-height: 55px;
+  bottom: 30px;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*--------------------------------------------------------------
+# btn-wsp button
+--------------------------------------------------------------*/
+.btn-wsp {
+  position: fixed;
+  visibility: visible;
+  opacity: 1;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  z-index: 996;
+  background: #26D366;
+  width: 60px;
+  height: 60px;
+  transition: all 0.4s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.54);
+}
+
+.btn-wsp i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.btn-wsp:hover {
+  background: #fff;
+  color: #26D366;
+}
+
+.btn-wsp:hover i {
+  color: #26D366;
+}
+
+.btn-wsp.active {
+  visibility: visible;
+  opacity: 1;
 }

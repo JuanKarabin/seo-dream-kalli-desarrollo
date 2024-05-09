@@ -1840,3 +1840,32 @@ responsive
   visibility: visible;
   opacity: 1;
 }
+
+/*--------------------------------------------------------------
+# accordion
+--------------------------------------------------------------*/
+.accordion-button {
+  color: black;
+  margin-bottom: 1%;
+  border-radius: 15px !important;
+  font-weight: bold;
+  background: #9deece;
+  background: linear-gradient(105deg, #9deece 0%, #1be996  100%);
+}
+
+.accordion-button:hover {
+  background: #8e96f7;
+  background: linear-gradient(to right, #8e96f7 0%, #3a44ad 100%);
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #8e96f7;
+  background: linear-gradient(to right, #8e96f7 0%, #3a44ad 100%);
+  color: #fff;
+}
+
+.show {
+  margin: -15px 0px 10px 0;
+  border: none;
+}

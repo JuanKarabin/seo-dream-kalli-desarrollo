@@ -985,6 +985,15 @@ Features Style
   -moz-transition: background-color .5s;
 }
 
+.features-item h4 {
+  color: #00D37F !important;
+}
+
+.features-item i{
+  color: #3a44ad;
+  font-size: 150%;
+}
+
 .features-item:hover {
   background: #acb1eb  ;
   background: linear-gradient(105deg, #acb1eb 0%, #5762d5  100%);
@@ -992,7 +1001,11 @@ Features Style
 }
 
 .features-item:hover h4 {
-  color: #fff;
+  color: #fff !important;
+}
+
+.features-item:hover i{
+  color: #fff !important;
 }
 
 .features-item:hover p {

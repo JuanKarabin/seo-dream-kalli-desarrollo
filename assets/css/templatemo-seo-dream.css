@@ -256,7 +256,7 @@ header
 
 .background-header {
   background-color: #303030!important;
-  height: 80px!important;
+  /*height: 80px!important;*/
   position: fixed!important;
   top: 0px;
   left: 0px;
@@ -291,7 +291,7 @@ header
 
 .header-area {
   background-color: #303030;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;

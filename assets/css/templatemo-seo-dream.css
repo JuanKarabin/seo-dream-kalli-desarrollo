@@ -635,9 +635,6 @@ header
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
   }
-  .logo{
-    display: none;
-  }
 }
 
 @media (max-width: 767px) {
@@ -746,10 +743,10 @@ header
   }
 }
 
-@media (min-width: 767px) {
-  .header-area .main-nav .nav {
-    display: flex !important;
-  }
+@media (min-width: 767px) and (max-width: 992px) {
+  .logo {
+      display: none; /* Oculta el logo en ese rango */
+    }
 }
 
 /* 

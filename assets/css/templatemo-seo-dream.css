@@ -1639,6 +1639,13 @@ form#contact button:hover {
   border-bottom: 2px solid #00d37f!important;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-green-button a {
+      display: grid; 
+      margin-left: -12.5px;
+    }
+}
+
 /* 
 ---------------------------------------------
 Footer Style
